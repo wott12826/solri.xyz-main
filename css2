@@ -1,0 +1,21 @@
+﻿@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(s/chakrapetch/v12/cIflMapbsEk7TDLdtEz1BwkeNIhFQA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/chakrapetch/v12/cIf6MapbsEk7TDLdtEz1BwkmmA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(s/chakrapetch/v12/cIflMapbsEk7TDLdtEz1BwkeJI9FQA.ttf) format('truetype');
+}

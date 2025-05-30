@@ -1,0 +1,344 @@
+Uri: https://code.jquery.com/jquery-3.6.0.min.js
+File Name: C:\Downloaded Web Sites\solri.xyz\jquery-3.6.0.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;700&display=swap
+File Name: C:\Downloaded Web Sites\solri.xyz\css2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Roboto:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Roboto+Slab:100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.7.2
+File Name: C:\Downloaded Web Sites\solri.xyz\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/chakrapetch/v12/cIf6MapbsEk7TDLdtEz1BwkmmA.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\chakrapetch\v12\cIf6MapbsEk7TDLdtEz1BwkmmA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/chakrapetch/v12/cIflMapbsEk7TDLdtEz1BwkeJI9FQA.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\chakrapetch\v12\cIflMapbsEk7TDLdtEz1BwkeJI9FQA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/chakrapetch/v12/cIflMapbsEk7TDLdtEz1BwkeNIhFQA.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\chakrapetch\v12\cIflMapbsEk7TDLdtEz1BwkeNIhFQA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiA8.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaalmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEalmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v34/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\s\robotoslab\v34\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://i.imgur.com/2mxAh9B.gif
+File Name: C:\Downloaded Web Sites\solri.xyz\2mxAh9B.gif
+Content Type: image/gif
+
+Uri: https://solri.xyz/
+File Name: C:\Downloaded Web Sites\solri.xyz\index.htm
+Content Type: text/html
+
+Uri: https://solri.xyz/comments/feed/
+File Name: C:\Downloaded Web Sites\solri.xyz\comments\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://solri.xyz/feed/
+File Name: C:\Downloaded Web Sites\solri.xyz\feed\index.htm
+Content Type: application/rss+xml
+
+Uri: https://solri.xyz/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css?ver=3.27.0
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor-pro\assets\css\modules\motion-fx.min.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css?ver=3.27.0
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor-pro\assets\css\widget-form.min.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.27.0
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor-pro\assets\js\elements-handlers.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.27.0
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor-pro\assets\js\frontend.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.27.0
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor-pro\assets\js\webpack-pro.runtime.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.27.6
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor\assets\css\frontend.min.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.27.6
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor\assets\css\widget-divider.min.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.27.6
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor\assets\css\widget-heading.min.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.27.6
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor\assets\css\widget-image.min.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.27.6
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor\assets\js\frontend-modules.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.27.6
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor\assets\js\frontend.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.27.6
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor\assets\js\webpack.runtime.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=3.27.6
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\plugins\elementor\assets\lib\animations\styles\e-animation-shrink.min.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.2.1
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\themes\hello-elementor\assets\js\hello-frontend.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.2.1
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\themes\hello-elementor\header-footer.min.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-content/themes/hello-elementor/style.min.css?ver=3.2.1
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\themes\hello-elementor\style.min.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-content/themes/hello-elementor/theme.min.css?ver=3.2.1
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\themes\hello-elementor\theme.min.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/ChakraPetch-Medium.ttf
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\ChakraPetch-Medium.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/dextools-1336x1536.png
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\dextools-1336x1536.png
+Content Type: image/png
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/dextools-1781x2048.png
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\dextools-1781x2048.png
+Content Type: image/png
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/dextools-261x300.png
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\dextools-261x300.png
+Content Type: image/png
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/dextools-768x883.png
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\dextools-768x883.png
+Content Type: image/png
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/dextools-890x1024.png
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\dextools-890x1024.png
+Content Type: image/png
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/Eon-Ambient-Scifi-Music.mp3
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\Eon-Ambient-Scifi-Music.mp3
+Content Type: audio/mpeg
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/Eon-Ambient-Scifi-Music.ogg
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\Eon-Ambient-Scifi-Music.ogg
+Content Type: audio/ogg
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/noise.gif
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\noise.gif
+Content Type: image/gif
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/overlay-bg.gif
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\overlay-bg.gif
+Content Type: image/gif
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/overlay.gif
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\overlay.gif
+Content Type: image/gif
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/solir-pad-300x268.png
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\solir-pad-300x268.png
+Content Type: image/png
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/solir-pad-768x686.png
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\solir-pad-768x686.png
+Content Type: image/png
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/solir-pad.png
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\solir-pad.png
+Content Type: image/png
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/solri-speaker-300x259.png
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\solri-speaker-300x259.png
+Content Type: image/png
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/solri-speaker-768x662.png
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\solri-speaker-768x662.png
+Content Type: image/png
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/solri-speaker.png
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\solri-speaker.png
+Content Type: image/png
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/solri-video.mp4
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\solri-video.mp4
+Content Type: video/mp4
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/solrispeaker.gif
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\solrispeaker.gif
+Content Type: image/gif
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/text-overlay.gif
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\text-overlay.gif
+Content Type: image/gif
+
+Uri: https://solri.xyz/wp-content/uploads/2025/01/trace-4.svg
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\2025\01\trace-4.svg
+Content Type: image/svg+xml
+
+Uri: https://solri.xyz/wp-content/uploads/elementor/css/post-13.css?ver=1747797700
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\elementor\css\post-13.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-content/uploads/elementor/css/post-5.css?ver=1747797700
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-content\uploads\elementor\css\post-5.css
+Content Type: text/css
+
+Uri: https://solri.xyz/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-includes\js\dist\hooks.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-includes\js\dist\i18n.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-includes\js\jquery\jquery.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-includes\js\jquery\ui\core.min.js
+Content Type: application/x-javascript
+
+Uri: https://solri.xyz/wp-json/
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-json\index.htm
+Content Type: application/json
+
+Uri: https://solri.xyz/wp-json/oembed/1.0/embed?url=https:%2F%2Fsolri.xyz%2F
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-json\oembed\1.0\embed
+Content Type: application/json
+
+Uri: https://solri.xyz/wp-json/oembed/1.0/embed?url=https:%2F%2Fsolri.xyz%2F&format=xml
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-json\oembed\1.0\embed-1
+Content Type: text/xml
+
+Uri: https://solri.xyz/wp-json/wp/v2/pages/13
+File Name: C:\Downloaded Web Sites\solri.xyz\wp-json\wp\v2\pages\13
+Content Type: application/json
+
