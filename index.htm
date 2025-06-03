@@ -311,7 +311,21 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
                 // Display bot response
                 const botMessageDiv = document.createElement("div");
-                botMessageDiv.textContent = "This is just a demo chat. For full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form.";
+                const userMessageLower = userMessage.toLowerCase();
+                
+                // Проверяем, содержит ли сообщение ключевые слова про анализ
+                if (userMessageLower.includes('analyze') || 
+                    userMessageLower.includes('analysis') || 
+                    userMessageLower.includes('anomaly') || 
+                    userMessageLower.includes('network') || 
+                    userMessageLower.includes('security') ||
+                    userMessageLower.includes('detect') ||
+                    userMessageLower.includes('monitor') ||
+                    userMessageLower.includes('scan')) {
+                    botMessageDiv.textContent = "This is just a demo chat. For full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form.";
+                } else {
+                    botMessageDiv.textContent = data.text;
+                }
                 botMessageDiv.className = "message bot";
                 messagesDiv.appendChild(botMessageDiv);
 
