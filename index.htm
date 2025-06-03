@@ -1000,6 +1000,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         z-index: 1000;
                         opacity: 0;
                         animation: fadeInOut 5s ease-in-out;
+                        filter: none !important;
                     }
                     .success-message h3 {
                         color: #4CAF50;
@@ -1012,6 +1013,9 @@ document.addEventListener('DOMContentLoaded', function() {
                         filter: blur(5px);
                         pointer-events: none;
                         transition: all 0.3s ease;
+                    }
+                    .form-blur .success-message {
+                        filter: none !important;
                     }
                     @keyframes fadeInOut {
                         0% { opacity: 0; }
