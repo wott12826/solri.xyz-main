@@ -1022,18 +1022,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 `;
                 document.head.appendChild(style);
                 
-                
                 // Находим контейнер формы
                 var formContainer = form.closest('.elementor-widget-container');
+                formContainer.style.position = 'relative';
                 
                 // Добавляем эффект размытия
                 formContainer.classList.add('form-blur');
                 
                 // Добавляем сообщение об успехе
-                formContainer.parentNode.insertBefore(successMessage, formContainer.nextSibling);
+                formContainer.appendChild(successMessage);
                 
                 // Очищаем поля формы
                 form.reset();
+                
+                // Через 5 секунд убираем размытие и удаляем сообщение
+                setTimeout(function() {
+                    formContainer.classList.remove('form-blur');
+                    successMessage.remove();
+                }, 5000);
             }
         });
     }
