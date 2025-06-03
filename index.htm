@@ -1033,8 +1033,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Добавляем эффект размытия
                 formContainer.classList.add('form-blur');
                 
-                // Добавляем сообщение об успехе
-                formContainer.appendChild(successMessage);
+                // Добавляем сообщение об успехе ВНЕ размытого контейнера
+                formContainer.parentNode.appendChild(successMessage);
                 
                 // Очищаем поля формы
                 form.reset();
