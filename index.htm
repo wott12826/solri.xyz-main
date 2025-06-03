@@ -966,14 +966,62 @@ document.addEventListener('DOMContentLoaded', function() {
     var errorDiv = document.querySelector('.elementor-message.elementor-message-danger[role="alert"]');
     if (errorDiv) errorDiv.style.display = 'none';
 
-    // Скрывать после отправки формы
-    var sendBtn = document.querySelector('button[type="submit"]');
-    if (sendBtn) {
-        sendBtn.addEventListener('click', function() {
-            setTimeout(function() {
-                var errorDiv = document.querySelector('.elementor-message.elementor-message-danger[role="alert"]');
-                if (errorDiv) errorDiv.style.display = 'none';
-            }, 500);
+    // Обработка отправки формы
+    var form = document.querySelector('.elementor-form');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Получаем значения полей
+            var walletAddress = document.getElementById('form-field-name').value;
+            var email = document.getElementById('form-field-email').value;
+            
+            // Проверяем заполнение полей
+            if (walletAddress && email) {
+                // Создаем элемент с сообщением об успехе
+                var successMessage = document.createElement('div');
+                successMessage.className = 'success-message';
+                successMessage.innerHTML = '<h3>Successfully Submitted!</h3><p>Thank you for your interest. We will contact you soon.</p>';
+                
+                // Добавляем стили для сообщения
+                var style = document.createElement('style');
+                style.textContent = `
+                    .success-message {
+                        text-align: center;
+                        padding: 20px;
+                        background: rgba(0, 0, 0, 0.7);
+                        border: 1px solid rgba(255, 255, 255, 0.2);
+                        border-radius: 10px;
+                        color: #fff;
+                        margin: 20px 0;
+                    }
+                    .success-message h3 {
+                        color: #4CAF50;
+                        margin-bottom: 10px;
+                    }
+                    .success-message p {
+                        color: rgba(255, 255, 255, 0.8);
+                    }
+                    .form-blur {
+                        filter: blur(5px);
+                        pointer-events: none;
+                        transition: filter 0.3s ease;
+                    }
+                `;
+                document.head.appendChild(style);
+                
+                // Находим контейнер формы
+                var formContainer = form.closest('.elementor-widget-container');
+                
+                // Добавляем эффект размытия
+                formContainer.classList.add('form-blur');
+                
+                // Добавляем сообщение об успехе
+                formContainer.parentNode.insertBefore(successMessage, formContainer.nextSibling);
+                
+                // Очищаем поля формы
+                form.reset();
+            }
         });
     }
 });
