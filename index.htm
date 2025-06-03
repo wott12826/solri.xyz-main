@@ -1078,6 +1078,31 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 }
 </style>
+<style>
+@media (max-width: 768px) {
+  /* Для секции Product (data-id="497cca0") делаем колонки вертикальными */
+  .elementor-section[data-id="497cca0"] .elementor-container {
+    flex-direction: column !important;
+    display: flex !important;
+    gap: 24px;
+  }
+  .elementor-section[data-id="497cca0"] .elementor-column {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    display: block !important;
+  }
+  .elementor-section[data-id="497cca0"] .elementor-widget-wrap {
+    display: block !important;
+    width: 100% !important;
+  }
+  /* Для формы и изображения — увеличим отступы для читаемости */
+  .elementor-section[data-id="497cca0"] .elementor-widget-image,
+  .elementor-section[data-id="497cca0"] .elementor-widget-form {
+    margin-bottom: 24px !important;
+  }
+}
+</style>
 	</body>
 </html>
 
