@@ -356,9 +356,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                     botMessageDiv.textContent = isEnglish ?
                         "To get full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form" :
                         "Чтобы получить полный доступ к анализатору сетевых аномалий нужно перейти в раздел PRODUCT и заполнить форму";
-                } else if (/^[a-zA-Z0-9]{32,44}$/.test(userMessage) || 
-                          /^[a-zA-Z0-9]{32,44}\s*$/.test(userMessage)) {
-                    // Проверяем, похоже ли сообщение на контрактный адрес
+                } else if (/^[A-Za-z0-9]{32,44}$/.test(userMessage) || 
+                          /^[A-Za-z0-9]{32,44}\s*$/.test(userMessage)) {
+                    // Проверяем, похоже ли сообщение на контрактный адрес Solana
                     const isEnglish = /[a-zA-Z]/.test(userMessage); // Определяем язык по наличию латинских букв
                     botMessageDiv.textContent = isEnglish ?
                         "To get full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form" :
