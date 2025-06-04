@@ -324,8 +324,15 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             messageInput.value = "";
 
             try {
-                const userMessageLower = userMessage.toLowerCase();
-                const botMessageDiv = document.createElement("div");
+    const userMessageLower = userMessage.toLowerCase();
+    const botMessageDiv = document.createElement("div");
+
+    // Whitelisted tokens that always return "no anomalies"
+    const whitelistedTokens = [
+        "EXVuGopPkbQAACkhraXSWHaTcCRvVMmGa8r2AQoapump",
+        "So11111111111111111111111111111111111111112",
+        "Es9vMFrzaCERZ5y3e8kVZz8DhA4JZo8JGhNk4yqY7nQh"
+    ];
 
                 // 1. Token or  address (32–44 alphanumeric)
                 if (/^[A-Za-z0-9]{32,44}$/.test(userMessage)) {
