@@ -52,6 +52,7 @@
     text-decoration: underline;
     text-shadow: 0px 5px 10px rgba(255, 255, 255, 0.23);
     color: #FFFFFF;
+    cursor: default !important;
 }
 
 .elementor-13 .elementor-element.elementor-element-2648a03 {
@@ -71,6 +72,7 @@
     text-decoration: underline;
     text-shadow: 0px 5px 10px rgba(255, 255, 255, 0.23);
     color: #FFFFFF;
+    cursor: default;
 }
 
 .elementor-widget-image .widget-image-caption {
@@ -107,6 +109,7 @@
     text-decoration: underline;
     text-shadow: 0px 5px 10px rgba(255, 255, 255, 0.23);
     color: #FFFFFF;
+    cursor: default !important;
 }
 
 .elementor-13 .elementor-element.elementor-element-20b49bc {
@@ -812,6 +815,7 @@ body .elementor-13 .elementor-element.elementor-element-51cdf59 .elementor-label
     font-weight: 400;
     text-shadow: 0px 5px 10px rgba(255, 255, 255, 0.23);
     color: #FFFFFF;
+    cursor: default !important;
 }
 
 .elementor-13 .elementor-element.elementor-element-4c3dcf5 {

@@ -186,6 +186,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             background: rgba(0, 0, 0, 0.8);
             color: #fff;
         }
+        
+        .div {
+            cursor: default !important;
+        }
 
         #chatbox {
             width: 100%;
@@ -287,6 +291,15 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             if (e.key === "Enter") {
                 sendMessage();
             }
+        });
+
+        // Add welcome message when chat loads
+        document.addEventListener("DOMContentLoaded", function() {
+            const messagesDiv = document.getElementById("messages");
+            const welcomeMessage = document.createElement("div");
+            welcomeMessage.className = "message bot";
+            welcomeMessage.textContent = "Hey there. I'm Solkr.\nWelcome aboard!\n\nI'm here to help you detect anomalies in coins — fast, simple, and smart. Just ping me whenever you're curious about a project or need to dig deeper";
+            messagesDiv.appendChild(welcomeMessage);
         });
 
         async function sendMessage() {
