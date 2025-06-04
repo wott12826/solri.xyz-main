@@ -306,7 +306,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             const messageInput = document.getElementById("messageInput");
             const messagesDiv = document.getElementById("messages");
             const userMessage = messageInput.value.trim();
-            
+
             if (!userMessage) return;
 
             // Display user message
@@ -314,93 +314,76 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             userMessageDiv.textContent = userMessage;
             userMessageDiv.className = "message user";
             messagesDiv.appendChild(userMessageDiv);
-            
+
             // Clear input
             messageInput.value = "";
-            
+
             try {
-                // Send message to backend
-                const response = await fetch('/.netlify/functions/chat', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({ message: userMessage })
-                });
-
-                const data = await response.json();
-
-                // Display bot response
-                const botMessageDiv = document.createElement("div");
                 const userMessageLower = userMessage.toLowerCase();
-                
-                // Проверяем различные варианты вопросов
-                if (userMessageLower.includes('кто ты') || 
+                const botMessageDiv = document.createElement("div");
+
+                // 1. Token or wallet address (32–44 alphanumeric)
+                if (/^[A-Za-z0-9]{32,44}$/.test(userMessage)) {
+                    const anomalies = Math.random() > 0.5;
+                    botMessageDiv.textContent = anomalies
+                        ? "Anomalies detected. For detailed analysis, go to the PRODUCT section and fill out the form."
+                        : "No anomalies detected. For full monitoring access, go to the PRODUCT section and fill out the form.";
+                }
+
+                // 2. Identity questions
+                else if (
                     userMessageLower.includes('who are you') ||
                     userMessageLower.includes('what are you') ||
-                    userMessageLower.includes('что ты') ||
-                    userMessageLower.includes('расскажи о себе')) {
-                    // Определяем язык вопроса
-                    const isEnglish = userMessageLower.includes('who are you') || userMessageLower.includes('what are you');
-                    botMessageDiv.textContent = isEnglish ? 
-                        "I am SOLKR, an autonomous blockchain analysis protocol designed to predict network collapse scenarios in real-time." :
-                        "Я SOLKR, автономный протокол анализа блокчейна, разработанный для прогнозирования сценариев коллапса сети в реальном времени.";
-                } else if (userMessageLower.includes('как') && 
-                    (userMessageLower.includes('пользоваться') || 
-                     userMessageLower.includes('использовать') ||
-                     userMessageLower.includes('работать') ||
-                     userMessageLower.includes('how to use') ||
-                     userMessageLower.includes('how to work'))) {
-                    // Определяем язык вопроса
-                    const isEnglish = userMessageLower.includes('how to use') || userMessageLower.includes('how to work');
-                    botMessageDiv.textContent = isEnglish ?
-                        "This is just a demo chat. For full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form." :
-                        "Это демо-чат. Для получения полного доступа к анализатору сетевых аномалий перейдите в раздел PRODUCT и заполните форму.";
-                } else if (/^[A-Za-z0-9]{32,44}$/.test(userMessage) || 
-                          /^[A-Za-z0-9]{32,44}\s*$/.test(userMessage) ||
-                          userMessageLower.includes('analyze') ||
-                          userMessageLower.includes('анализ') ||
-                          userMessageLower.includes('token') ||
-                          userMessageLower.includes('токен') ||
-                          userMessageLower.includes('contract') ||
-                          userMessageLower.includes('контракт') ||
-                          userMessageLower.includes('$') ||
-                          userMessageLower.includes('evaluate') ||
-                          userMessageLower.includes('оценка')) {
-                    // Проверяем запросы на анализ токенов/контрактов
-                    const isEnglish = /[a-zA-Z]/.test(userMessage);
-                    botMessageDiv.textContent = isEnglish ?
-                        "This is just a demo chat. For full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form." :
-                        "Это демо-чат. Для получения полного доступа к анализатору сетевых аномалий перейдите в раздел PRODUCT и заполните форму.";
-                } else if (userMessageLower.includes('what kind of data') ||
-                          userMessageLower.includes('какие данные') ||
-                          userMessageLower.includes('what data') ||
-                          userMessageLower.includes('какие показатели')) {
-                    const isEnglish = userMessageLower.includes('what kind of data') || userMessageLower.includes('what data');
-                    botMessageDiv.textContent = isEnglish ?
-                        "I monitor network activity, transaction patterns, liquidity flows, and smart contract interactions to identify potential anomalies and risks." :
-                        "Я отслеживаю активность сети, паттерны транзакций, потоки ликвидности и взаимодействия смарт-контрактов для выявления потенциальных аномалий и рисков.";
-                } else if (userMessageLower.includes('solana') ||
-                          userMessageLower.includes('солана') ||
-                          userMessageLower.includes('part of') ||
-                          userMessageLower.includes('часть')) {
-                    const isEnglish = userMessageLower.includes('solana') || userMessageLower.includes('part of');
-                    botMessageDiv.textContent = isEnglish ?
-                        "I am designed to operate on the Solana network, monitoring its ecosystem for potential risks and anomalies." :
-                        "Я разработан для работы в сети Solana, отслеживая её экосистему на предмет потенциальных рисков и аномалий.";
-                } else {
+                    userMessageLower.includes('about yourself')
+                ) {
+                    botMessageDiv.textContent = "I am SOLKR — a Solana anomaly detection protocol. I do not process personal data.";
+                }
+
+                // 3. Usage questions
+                else if (
+                    userMessageLower.includes('how to use') ||
+                    userMessageLower.includes('how does it work') ||
+                    userMessageLower.includes('how can i use') ||
+                    userMessageLower.includes('how do you work')
+                ) {
+                    botMessageDiv.textContent = "To access full network analysis, please go to the PRODUCT section and fill out the form.";
+                }
+
+                // 4. Keywords related to tokens, wallets, etc.
+                else if (
+                    userMessageLower.includes('token') ||
+                    userMessageLower.includes('wallet') ||
+                    userMessageLower.includes('solana') ||
+                    userMessageLower.includes('blockchain') ||
+                    userMessageLower.includes('scan') ||
+                    userMessageLower.includes('monitor') ||
+                    userMessageLower.includes('analyze')
+                ) {
+                    botMessageDiv.textContent = "Solana tokens follow the SPL standard. For complete analysis, go to the PRODUCT section.";
+                }
+
+                // 5. All other inputs – send to backend (OpenAI)
+                else {
+                    const response = await fetch('/.netlify/functions/chat', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ message: userMessage })
+                    });
+
+                    const data = await response.json();
                     botMessageDiv.textContent = data.text;
                 }
+
                 botMessageDiv.className = "message bot";
                 messagesDiv.appendChild(botMessageDiv);
-
-                // Scroll to bottom
                 messagesDiv.scrollTop = messagesDiv.scrollHeight;
+
             } catch (error) {
                 console.error('Error:', error);
-                // Display error message
                 const errorDiv = document.createElement("div");
-                errorDiv.textContent = "This is just a demo chat. For full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form.";
+                errorDiv.textContent = "This is a demo version. For full access to the anomaly analyzer, go to the PRODUCT section and fill out the form.";
                 errorDiv.className = "message bot error";
                 messagesDiv.appendChild(errorDiv);
             }
