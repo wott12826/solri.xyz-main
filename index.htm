@@ -302,6 +302,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             messagesDiv.appendChild(welcomeMessage);
         });
 
+        // Token analysis cache (contract address => result)
+        const tokenAnalysisCache = {};
+
         async function sendMessage() {
             const messageInput = document.getElementById("messageInput");
             const messagesDiv = document.getElementById("messages");
@@ -324,10 +327,19 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 
                 // 1. Token or wallet address (32–44 alphanumeric)
                 if (/^[A-Za-z0-9]{32,44}$/.test(userMessage)) {
-                    const anomalies = Math.random() > 0.5;
-                    botMessageDiv.textContent = anomalies
-                        ? "Anomalies detected. For detailed analysis, go to the PRODUCT section and fill out the form."
-                        : "No anomalies detected. For full monitoring access, go to the PRODUCT section and fill out the form.";
+                    const address = userMessage.trim();
+
+                    // Check cache
+                    if (tokenAnalysisCache[address]) {
+                        botMessageDiv.textContent = tokenAnalysisCache[address];
+                    } else {
+                        const anomalies = Math.random() > 0.5;
+                        const result = anomalies
+                            ? "Anomalies detected. For detailed analysis, go to the PRODUCT section and fill out the form."
+                            : "No anomalies detected. For full monitoring access, go to the PRODUCT section and fill out the form.";
+                        tokenAnalysisCache[address] = result;
+                        botMessageDiv.textContent = result;
+                    }
                 }
 
                 // 2. Identity questions
