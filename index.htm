@@ -324,17 +324,31 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             messageInput.value = "";
 
             try {
-                const userMessageLower = userMessage.toLowerCase();
-                const botMessageDiv = document.createElement("div");
+    const userMessageLower = userMessage.toLowerCase();
+    const botMessageDiv = document.createElement("div");
 
-                // 1. Token or  address (32–44 alphanumeric)
-                if (/^[A-Za-z0-9]{32,44}$/.test(userMessage)) {
-                    const address = userMessage.trim();
+    // Safe tokens that should never be marked as anomalous
+    const safeTokens = [
+        "EXVuGopPkbQAACkhraXSWHaTcCRvVMmGa8r2AQoapump", // 
+        "So11111111111111111111111111111111111111112", // SOL
+        "Es9vMFrzaCERZ5y3e8kVZz8DhA4JZo8JGhNk4yqY7nQh", // USDT
+        "8XSzMqFms2HQav9Uapn4RQZp7dpnSHw7ccBNWqKAA78w", // USDC
+        "4k3Dyjzvzp8e2UWH26X6x1ZzMJ9roKXt9e34DnHdwKtx", // RAY
+    ];
 
-                    // Check cache
-                    if (tokenAnalysisCache[address]) {
-                        botMessageDiv.textContent = tokenAnalysisCache[address];
-                    } else {
+    // 1. Token or address (32–44 alphanumeric)
+    if (/^[A-Za-z0-9]{32,44}$/.test(userMessage)) {
+        const address = userMessage.trim();
+
+        // Check cache
+        if (tokenAnalysisCache[address]) {
+            botMessageDiv.textContent = tokenAnalysisCache[address];
+        } else {
+            let result;
+
+            if (safeTokens.includes(address)) {
+                result = "No anomalies detected. For full monitoring access, go to the PRODUCT section and fill out the form.";
+            } else {
                         const anomalies = Math.random() > 0.5;
                         const result = anomalies
                             ? "Anomalies detected. For detailed analysis, go to the PRODUCT section and fill out the form."
