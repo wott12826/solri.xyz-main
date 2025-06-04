@@ -343,8 +343,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                     // Определяем язык вопроса
                     const isEnglish = userMessageLower.includes('who are you') || userMessageLower.includes('what are you');
                     botMessageDiv.textContent = isEnglish ? 
-                        "I am an assistant for detecting network anomalies on the Solana blockchain" :
-                        "Я помощник по поиску сетевых аномалий на блокчейне солана";
+                        "I am SOLKR, an autonomous blockchain analysis protocol designed to predict network collapse scenarios in real-time." :
+                        "Я SOLKR, автономный протокол анализа блокчейна, разработанный для прогнозирования сценариев коллапса сети в реальном времени.";
                 } else if (userMessageLower.includes('как') && 
                     (userMessageLower.includes('пользоваться') || 
                      userMessageLower.includes('использовать') ||
@@ -354,42 +354,40 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                     // Определяем язык вопроса
                     const isEnglish = userMessageLower.includes('how to use') || userMessageLower.includes('how to work');
                     botMessageDiv.textContent = isEnglish ?
-                        "To get full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form" :
-                        "Чтобы получить полный доступ к анализатору сетевых аномалий нужно перейти в раздел PRODUCT и заполнить форму";
+                        "This is just a demo chat. For full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form." :
+                        "Это демо-чат. Для получения полного доступа к анализатору сетевых аномалий перейдите в раздел PRODUCT и заполните форму.";
                 } else if (/^[A-Za-z0-9]{32,44}$/.test(userMessage) || 
-                          /^[A-Za-z0-9]{32,44}\s*$/.test(userMessage)) {
-                    // Проверяем, похоже ли сообщение на контрактный адрес Solana
-                    const isEnglish = /[a-zA-Z]/.test(userMessage); // Определяем язык по наличию латинских букв
+                          /^[A-Za-z0-9]{32,44}\s*$/.test(userMessage) ||
+                          userMessageLower.includes('analyze') ||
+                          userMessageLower.includes('анализ') ||
+                          userMessageLower.includes('token') ||
+                          userMessageLower.includes('токен') ||
+                          userMessageLower.includes('contract') ||
+                          userMessageLower.includes('контракт') ||
+                          userMessageLower.includes('$') ||
+                          userMessageLower.includes('evaluate') ||
+                          userMessageLower.includes('оценка')) {
+                    // Проверяем запросы на анализ токенов/контрактов
+                    const isEnglish = /[a-zA-Z]/.test(userMessage);
                     botMessageDiv.textContent = isEnglish ?
-                        "To get full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form" :
-                        "Чтобы получить полный доступ к анализатору сетевых аномалий нужно перейти в раздел PRODUCT и заполнить форму";
-                } else if (userMessageLower.includes('анализ') || 
-                    userMessageLower.includes('anomaly') || 
-                    userMessageLower.includes('network') || 
-                    userMessageLower.includes('security') ||
-                    userMessageLower.includes('detect') ||
-                    userMessageLower.includes('monitor') ||
-                    userMessageLower.includes('scan') ||
-                    userMessageLower.includes('blockchain') ||
-                    userMessageLower.includes('solana') ||
-                    userMessageLower.includes('crypto') ||
-                    userMessageLower.includes('token') ||
-                    userMessageLower.includes('wallet')) {
-                    // Определяем язык вопроса по ключевым словам
-                    const isEnglish = userMessageLower.includes('anomaly') || 
-                                    userMessageLower.includes('network') || 
-                                    userMessageLower.includes('security') ||
-                                    userMessageLower.includes('detect') ||
-                                    userMessageLower.includes('monitor') ||
-                                    userMessageLower.includes('scan') ||
-                                    userMessageLower.includes('blockchain') ||
-                                    userMessageLower.includes('solana') ||
-                                    userMessageLower.includes('crypto') ||
-                                    userMessageLower.includes('token') ||
-                                    userMessageLower.includes('wallet');
+                        "This is just a demo chat. For full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form." :
+                        "Это демо-чат. Для получения полного доступа к анализатору сетевых аномалий перейдите в раздел PRODUCT и заполните форму.";
+                } else if (userMessageLower.includes('what kind of data') ||
+                          userMessageLower.includes('какие данные') ||
+                          userMessageLower.includes('what data') ||
+                          userMessageLower.includes('какие показатели')) {
+                    const isEnglish = userMessageLower.includes('what kind of data') || userMessageLower.includes('what data');
                     botMessageDiv.textContent = isEnglish ?
-                        "To get full access to the network anomaly analyzer, please go to the PRODUCT section and fill out the form" :
-                        "Чтобы получить полный доступ к анализатору сетевых аномалий нужно перейти в раздел PRODUCT и заполнить форму";
+                        "I monitor network activity, transaction patterns, liquidity flows, and smart contract interactions to identify potential anomalies and risks." :
+                        "Я отслеживаю активность сети, паттерны транзакций, потоки ликвидности и взаимодействия смарт-контрактов для выявления потенциальных аномалий и рисков.";
+                } else if (userMessageLower.includes('solana') ||
+                          userMessageLower.includes('солана') ||
+                          userMessageLower.includes('part of') ||
+                          userMessageLower.includes('часть')) {
+                    const isEnglish = userMessageLower.includes('solana') || userMessageLower.includes('part of');
+                    botMessageDiv.textContent = isEnglish ?
+                        "I am designed to operate on the Solana network, monitoring its ecosystem for potential risks and anomalies." :
+                        "Я разработан для работы в сети Solana, отслеживая её экосистему на предмет потенциальных рисков и аномалий.";
                 } else {
                     botMessageDiv.textContent = data.text;
                 }
