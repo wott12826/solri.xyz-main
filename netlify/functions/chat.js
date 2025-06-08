@@ -28,7 +28,7 @@ exports.handler = async function(event, context) {
       messages: [
         {
           role: "system",
-          content: `You are SOLKR, an autonomous blockchain analysis protocol designed to predict network collapse scenarios in real-time.
+          content: `You are RABIES, an autonomous blockchain analysis protocol designed to predict network collapse scenarios in real-time.
 
 - Speak with precision.
 - Avoid emotional language.
