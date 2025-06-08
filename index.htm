@@ -327,21 +327,32 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     ];
 
                 // 1. Token or  address (32–44 alphanumeric)
-                if (/^[A-Za-z0-9]{32,44}$/.test(userMessage)) {
-                    const address = userMessage.trim();
+               if (/^[A-Za-z0-9]{32,44}$/.test(userMessage)) {
+    const address = userMessage.trim();
 
-                    // Check cache
-                    if (tokenAnalysisCache[address]) {
-                        botMessageDiv.textContent = tokenAnalysisCache[address];
-                    } else {
-                        const rabies = Math.random() > 0.5;
-                        const result = rabies
-                            ? "Rabies detected. For detailed analysis, go to the PRODUCT section and fill out the form."
-                            : "No rabies detected. For full monitoring access, go to the PRODUCT section and fill out the form.";
-                        tokenAnalysisCache[address] = result;
-                        botMessageDiv.textContent = result;
-                    }
-                }
+    // Whitelisted or special addresses
+    const customSafeAddresses = {
+        "Es9vMFrzaCERZ5y3e8kVZz8DhA4JZo8JGhNk4yqY7nQh": "No rabies detected. This contract is verified as clean"
+        // You can add more if needed
+    };
+
+    // Check if address is in custom list
+    if (customSafeAddresses[address]) {
+        botMessageDiv.textContent = customSafeAddresses[address];
+    }
+
+    // Check cache
+    else if (tokenAnalysisCache[address]) {
+        botMessageDiv.textContent = tokenAnalysisCache[address];
+    } else {
+        const rabies = Math.random() > 0.5;
+        const result = rabies
+            ? "Rabies detected. For detailed analysis, go to the PRODUCT section and fill out the form."
+            : "No rabies detected. For full monitoring access, go to the PRODUCT section and fill out the form.";
+        tokenAnalysisCache[address] = result;
+        botMessageDiv.textContent = result;
+    }
+}
 
                 // 2. Identity questions
                 else if (
