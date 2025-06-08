@@ -292,7 +292,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             const messagesDiv = document.getElementById("messages");
             const welcomeMessage = document.createElement("div");
             welcomeMessage.className = "message bot";
-            welcomeMessage.textContent = "Hey there, I'm RABIES.\nWelcome aboard!\nI'm here to help you spot anomalies in crypto coins — fast, simple and smart.\nGot a question or need insights on a project? Just ask — I've got you.";
+            welcomeMessage.textContent = "Hey there, I'm RABIES.\nWelcome aboard!\nI'm here to help you spot rabies in crypto coins — fast, simple and smart.\nGot a question or need insights on a project? Just ask — I've got you.";
             messagesDiv.appendChild(welcomeMessage);
         });
 
@@ -319,7 +319,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
     const userMessageLower = userMessage.toLowerCase();
     const botMessageDiv = document.createElement("div");
 
-    // Whitelisted tokens that always return "no anomalies"
+    // Whitelisted tokens that always return "no rabies"
     const whitelistedTokens = [
         "ZFzf1QASNgPKnx7ow9pBa8yn6P4taSjywK6PZjLpump",
         "So11111111111111111111111111111111111111112",
@@ -334,10 +334,10 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                     if (tokenAnalysisCache[address]) {
                         botMessageDiv.textContent = tokenAnalysisCache[address];
                     } else {
-                        const anomalies = Math.random() > 0.5;
-                        const result = anomalies
-                            ? "Anomalies detected. For detailed analysis, go to the PRODUCT section and fill out the form."
-                            : "No anomalies detected. For full monitoring access, go to the PRODUCT section and fill out the form.";
+                        const rabies = Math.random() > 0.5;
+                        const result = rabies
+                            ? "Rabies detected. For detailed analysis, go to the PRODUCT section and fill out the form."
+                            : "No rabies detected. For full monitoring access, go to the PRODUCT section and fill out the form.";
                         tokenAnalysisCache[address] = result;
                         botMessageDiv.textContent = result;
                     }
@@ -349,7 +349,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
                     userMessageLower.includes('what are you') ||
                     userMessageLower.includes('about yourself')
                 ) {
-                    botMessageDiv.textContent = "I am RABIES — a Solana anomaly detection protocol. I do not process personal data.";
+                    botMessageDiv.textContent = "I am RABIES — a Solana rabies detection protocol. I do not process personal data.";
                 }
 
                 // 3. Usage questions
@@ -396,7 +396,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             } catch (error) {
                 console.error('Error:', error);
                 const errorDiv = document.createElement("div");
-                errorDiv.textContent = "This is a demo version. For full access to the anomaly analyzer, go to the PRODUCT section and fill out the form.";
+                errorDiv.textContent = "This is a demo version. For full access to the rabies analyzer, go to the PRODUCT section and fill out the form.";
                 errorDiv.className = "message bot error";
                 messagesDiv.appendChild(errorDiv);
             }
@@ -506,7 +506,7 @@ Designed to observe. Built to inform. Ready to act.</p>				</div>
 				</div>
 				<div class="elementor-element elementor-element-3af80c0 elementor-widget__width-inherit elementor-widget elementor-widget-heading" data-id="3af80c0" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<p class="elementor-heading-title elementor-size-default" style="font-size: 15px !important; line-height: 1.5 !important; letter-spacing: 0.2px !important; font-weight: 400 !important; color: rgba(255, 255, 255, 0.8) !important;">RABIES is a high-precision anomaly detection engine powered by advanced behavioral intelligence—built natively for the Solana blockchain. Operating at the intersection of real-time analytics and predictive security, RABIES continuously monitors wallet activity, smart contracts, and liquidity flows to uncover deviations before they manifest as threats.<br><br>Through a streamlined web interface and API integration, RABIES offers live anomaly scoring (A-Score), behavioral fingerprinting, and early warnings—empowering developers, traders, and protocols to act with foresight, not hindsight.<br><br>At the forefront of on-chain threat intelligence, RABIES redefines what it means to observe. It doesn't predict. It detects. It learns. It never forgets.</p>
+					<p class="elementor-heading-title elementor-size-default" style="font-size: 15px !important; line-height: 1.5 !important; letter-spacing: 0.2px !important; font-weight: 400 !important; color: rgba(255, 255, 255, 0.8) !important;">RABIES is a high-precision rabies detection engine powered by advanced behavioral intelligence—built natively for the Solana blockchain. Operating at the intersection of real-time analytics and predictive security, RABIES continuously monitors wallet activity, smart contracts, and liquidity flows to uncover deviations before they manifest as threats.<br><br>Through a streamlined web interface and API integration, RABIES offers live rabies scoring (A-Score), behavioral fingerprinting, and early warnings—empowering developers, traders, and protocols to act with foresight, not hindsight.<br><br>At the forefront of on-chain threat intelligence, RABIES redefines what it means to observe. It doesn't predict. It detects. It learns. It never forgets.</p>
 				</div>
 			</div>
 				
